@@ -1,0 +1,37 @@
+# Archivos temporales / de sesión de OrCAD Capture y Allegro (OrCAD X 25.1)
+*.lck
+*.DSNlck
+*.OLBlck
+*.jrl
+*.jrl,*
+*.log
+*.log,*
+*.dmp
+*.SAV
+*.DBK
+*.TMP
+*.bak
+master.tag
+signoise.run/
+Hub-PSpiceFiles/
+*-PSpiceFiles/
+# netlist generado (se regenera desde Capture)
+pstxnet.dat
+pstxprt.dat
+pstchip.dat
+netrev.lst
+eco.txt*
+# autorouter
+specctra.*
+*.did
+*_rules.do
+*_forget.do
+pasde.do
+# volcados de trabajo
+claude_*.txt
+__pycache__/
+*.pkl
+
+# dibujo de taladros eliminado (25-oct)
+entregables/gerber/DRILL_DWG.art
+entregables/vistas/DRILL_DWG.png

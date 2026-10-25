@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Lib xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="olb.xsd">
+
+  <Defn LibraryExportVersion="1.1" name="C:/Users/Maria Priscila Quiro/OneDrive/Documentos/Escritorio/Orcad/cdssetup/workspace/projects/hub/lib/PJ-063AH.OLB"/>
+
+  <DefaultValues>
+    <Defn/>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="0" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="1" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="2" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="3" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="4" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="5" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="6" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="7" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="8" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="9" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="0" escapement="0" height="8" index="10" italic="0" name="Arial" orientation="0" weight="400" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="11" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="12" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="13" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="14" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="15" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="16" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="17" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="18" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="19" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="20" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="21" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="22" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultFont>
+      <Defn charset="1" escapement="0" height="-9" index="23" italic="0" name="Arial" orientation="0" weight="200" width="0"/>
+    </DefaultFont>
+    <DefaultPageRec>
+      <Defn ANSIGridRefs="0" BorderDisplayed="1" BorderPrinted="1" GridRefDisplayed="0" GridRefPrinted="0" HorizontalLabelCount="0" HorizontalLabelIsAscending="1" HorizontalLabelIsChar="1" HorizontalLabelWidth="0" IsMetric="0" PinToPin="100" TitleBlockDisplayed="0" TitleBlockPrinted="0" VerticalLabelCount="0" VerticalLabelIsAscending="1" VerticalLabelIsChar="1" VerticalLabelWidth="0"/>
+    </DefaultPageRec>
+    <DefaultPlacedInstIsPrimitive>
+      <Defn val="0"/>
+    </DefaultPlacedInstIsPrimitive>
+    <DefaultDrawnInstIsPrimitive>
+      <Defn val="0"/>
+    </DefaultDrawnInstIsPrimitive>
+    <DefaultPartFieldMapping>
+      <Defn index="1" val=""/>
+    </DefaultPartFieldMapping>
+    <DefaultPartFieldMapping>
+      <Defn index="2" val=""/>
+    </DefaultPartFieldMapping>
+    <DefaultPartFieldMapping>
+      <Defn index="3" val=""/>
+    </DefaultPartFieldMapping>
+    <DefaultPartFieldMapping>
+      <Defn index="4" val=""/>
+    </DefaultPartFieldMapping>
+    <DefaultPartFieldMapping>
+      <Defn index="5" val=""/>
+    </DefaultPartFieldMapping>
+    <DefaultPartFieldMapping>
+      <Defn index="6" val=""/>
+    </DefaultPartFieldMapping>
+    <DefaultPartFieldMapping>
+      <Defn index="7" val=""/>
+    </DefaultPartFieldMapping>
+    <DefaultPartFieldMapping>
+      <Defn index="8" val=""/>
+    </DefaultPartFieldMapping>
+  </DefaultValues>
+
+  <Package>
+    <Defn alphabeticNumbering="2" isHomogeneous="1" name="PJ-063AH" pcbFootprint="CUI_PJ-063AH" pcbLib="" refdesPrefix="J" timestamp="1741810147" timezone="1780"/>
+    <LibPart>
+      <Defn CellName="PJ-063AH"/>
+      <NormalView>
+        <Defn suffix=".Normal"/>
+        <SymbolDisplayProp>
+          <Defn locX="0" locY="-6" name="Part Reference" rotation="0" textJustification="0"/>
+          <PropFont>
+            <Defn charset="1" escapement="0" height="-6" italic="0" name="Arial" orientation="0" weight="400" width="0"/>
+          </PropFont>
+          <PropColor>
+            <Defn val="48"/>
+          </PropColor>
+          <PropDispType>
+            <Defn ValueIfValueExist="0" val="1"/>
+          </PropDispType>
+        </SymbolDisplayProp>
+        <SymbolDisplayProp>
+          <Defn locX="0" locY="64" name="Value" rotation="0" textJustification="0"/>
+          <PropFont>
+            <Defn charset="1" escapement="0" height="-6" italic="0" name="Arial" orientation="0" weight="400" width="0"/>
+          </PropFont>
+          <PropColor>
+            <Defn val="48"/>
+          </PropColor>
+          <PropDispType>
+            <Defn ValueIfValueExist="0" val="1"/>
+          </PropDispType>
+        </SymbolDisplayProp>
+        <SymbolUserProp>
+          <Defn name="Check_prices" val="https://www.snapeda.com/parts/PJ-063AH/Same+Sky/view-part/?ref=eda"/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="Description" val="                                                    2.0 x 6.5 mm, 8.0 A, Horizontal, Through Hole, Shielded, Kinked Pins, Dc Power Jack Connector                                            "/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="MF" val="Same Sky"/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="MP" val="PJ-063AH"/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="OriginalSymbolOrigin" val="(-30000,20000)"/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="PCB Footprint" val="CUI_PJ-063AH"/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="Package" val="None"/>
+        </SymbolUserProp>
+        <SymbolUserProp>
+          <Defn name="SnapEDA_Link" val="https://www.snapeda.com/parts/PJ-063AH/Same+Sky/view-part/?ref=snap"/>
+        </SymbolUserProp>
+        <SymbolColor>
+          <Defn val="48"/>
+        </SymbolColor>
+        <SymbolBBox>
+          <Defn x1="0" x2="50" y1="0" y2="50"/>
+        </SymbolBBox>
+        <IsPinNumbersVisible>
+          <Defn val="1"/>
+        </IsPinNumbersVisible>
+        <IsPinNamesRotated>
+          <Defn val="1"/>
+        </IsPinNamesRotated>
+        <IsPinNamesVisible>
+          <Defn val="1"/>
+        </IsPinNamesVisible>
+        <ContentsLibName>
+          <Defn name=""/>
+        </ContentsLibName>
+        <ContentsViewName>
+          <Defn name=""/>
+        </ContentsViewName>
+        <ContentsViewType>
+          <Defn type="0"/>
+        </ContentsViewType>
+        <PartValue>
+          <Defn name="PJ-063AH"/>
+        </PartValue>
+        <Reference>
+          <Defn name="J"/>
+        </Reference>
+        <Arc>
+          <Defn endX="7" endY="15" lineStyle="0" lineWidth="0" startX="7" startY="5" x1="2" x2="12" y1="5" y2="15"/>
+        </Arc>
+        <Line>
+          <Defn lineStyle="0" lineWidth="0" x1="7" x2="25" y1="5" y2="5"/>
+        </Line>
+        <Line>
+          <Defn lineStyle="0" lineWidth="0" x1="25" x2="25" y1="5" y2="15"/>
+        </Line>
+        <Line>
+          <Defn lineStyle="0" lineWidth="0" x1="25" x2="7" y1="15" y2="15"/>
+        </Line>
+        <Line>
+          <Defn lineStyle="0" lineWidth="0" x1="25" x2="25" y1="15" y2="18"/>
+        </Line>
+        <Line>
+          <Defn lineStyle="0" lineWidth="0" x1="25" x2="30" y1="18" y2="18"/>
+        </Line>
+        <Line>
+          <Defn lineStyle="0" lineWidth="0" x1="30" x2="30" y1="18" y2="3"/>
+        </Line>
+        <Line>
+          <Defn lineStyle="0" lineWidth="0" x1="30" x2="25" y1="3" y2="3"/>
+        </Line>
+        <Line>
+          <Defn lineStyle="0" lineWidth="0" x1="25" x2="25" y1="3" y2="5"/>
+        </Line>
+        <Line>
+          <Defn lineStyle="0" lineWidth="0" x1="30" x2="17" y1="40" y2="40"/>
+        </Line>
+        <Line>
+          <Defn lineStyle="0" lineWidth="0" x1="17" x2="15" y1="40" y2="35"/>
+        </Line>
+        <Line>
+          <Defn lineStyle="0" lineWidth="0" x1="15" x2="12" y1="35" y2="40"/>
+        </Line>
+        <Line>
+          <Defn lineStyle="0" lineWidth="0" x1="50" x2="30" y1="10" y2="10"/>
+        </Line>
+        <Line>
+          <Defn lineStyle="0" lineWidth="0" x1="50" x2="30" y1="30" y2="30"/>
+        </Line>
+        <Line>
+          <Defn lineStyle="0" lineWidth="0" x1="50" x2="30" y1="40" y2="40"/>
+        </Line>
+        <Line>
+          <Defn lineStyle="0" lineWidth="0" x1="50" x2="30" y1="50" y2="50"/>
+        </Line>
+        <SymbolPinScalar>
+          <Defn hotptX="50" hotptY="10" name="1" position="2" startX="50" startY="10" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="1"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="50" hotptY="30" name="2" position="3" startX="50" startY="30" type="4" visible="1"/>
+          <IsLong>
+            <Defn val="1"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="0"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="50" hotptY="50" name="SHIELD" position="0" startX="50" startY="50" type="7" visible="1"/>
+          <IsLong>
+            <Defn val="1"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="1"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+        </SymbolPinScalar>
+        <SymbolPinScalar>
+          <Defn hotptX="50" hotptY="40" name="SHIELD" position="1" startX="50" startY="40" type="7" visible="1"/>
+          <IsLong>
+            <Defn val="1"/>
+          </IsLong>
+          <IsClock>
+            <Defn val="0"/>
+          </IsClock>
+          <IsDot>
+            <Defn val="0"/>
+          </IsDot>
+          <IsLeftPointing>
+            <Defn val="0"/>
+          </IsLeftPointing>
+          <IsRightPointing>
+            <Defn val="0"/>
+          </IsRightPointing>
+          <IsNetStyle>
+            <Defn val="0"/>
+          </IsNetStyle>
+          <IsNoConnect>
+            <Defn val="0"/>
+          </IsNoConnect>
+          <IsGlobal>
+            <Defn val="1"/>
+          </IsGlobal>
+          <IsNumberVisible>
+            <Defn val="1"/>
+          </IsNumberVisible>
+        </SymbolPinScalar>
+      </NormalView>
+      <PhysicalPart>
+        <Defn/>
+        <PinNumber>
+          <Defn number="S2" position="0"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="S1" position="1"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="1" position="2"/>
+        </PinNumber>
+        <PinNumber>
+          <Defn number="2" position="3"/>
+        </PinNumber>
+      </PhysicalPart>
+    </LibPart>
+  </Package>
+
+</Lib>
