@@ -36,6 +36,8 @@ pares diferenciales USB 0.14/0.14 mm (≈ 90 Ω diferencial referidos al plano G
 
 ## Otros
 
+- HUB_esquematico.pdf: esquemático completo (hoja principal con USB5744 y conectores, y hoja POWER).
+
 - brd/HUB.brd: tarjeta de Allegro con los films de artwork ya definidos.
 - vistas/*.png: vista previa de cada Gerber, generada a partir de los archivos para revisarlos.
 - gerber/photoplot.log, drill/ncdrill.log, drill/ncroute.log: bitácoras de Allegro. Las únicas advertencias

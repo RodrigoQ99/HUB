@@ -24,7 +24,7 @@ Autor: José Rodrigo Quiroa Dávila – Ingeniería en Electrónica y Telecomuni
 | Serigrafía y dibujos de ensamble | ✅ Referencias reubicadas (texto 1.0 mm / trazo 0.15 mm), nada sobre pads |
 | Gerbers L1–L4, máscara, pasta, serigrafía y ensamble (TOP y BOTTOM), contorno | ✅ Generados (`entregables/gerber`) |
 | Taladro NC (PTH, NPTH y ranuras) | ✅ Generado (`entregables/drill`) |
-| PDF del esquemático | ⏳ Pendiente |
+| PDF del esquemático (hoja principal y POWER) | ✅ `entregables/HUB_esquematico.pdf` |
 
 ### Vista de los Gerbers
 
@@ -58,5 +58,8 @@ padstacks de `orcad/footprints/` deben estar en la ruta de librerías de PCB (o 
 
 ## Próximos pasos
 
-1. Exportar el PDF del esquemático desde Capture.
-2. Revisión final del paquete con un visor de Gerber antes de enviarlo a fabricar.
+1. Revisión final del paquete con un visor de Gerber antes de enviarlo a fabricar.
+
+> Nota: `orcad/HUB.DSN` es el esquemático de Capture. No exportar a Specctra desde esta carpeta:
+> Allegro escribe `HUB.dsn` (mismo nombre) y sobrescribe el esquemático (pasó el 24‑oct; se restauró
+> desde el respaldo automático de Capture del 24‑oct 17:26, que coincide con el netlist final).
