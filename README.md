@@ -1,65 +1,38 @@
-# HUB USB 3.x – 1 entrada USB‑C y 4 salidas USB‑C (USB5744)
+# Hub USB-C de 4 puertos con USB5744
 
-Proyecto de diseño de un hub USB 3.x de alta velocidad (SuperSpeed 5 Gb/s + USB 2.0) basado en el
-controlador **Microchip USB5744** (QFN‑56), con un puerto de subida USB‑C (J12) y cuatro puertos de bajada
-USB‑C (J1–J4), alimentado desde una fuente externa de 12 V.
+Este es mi proyecto de un hub USB 3.x con una entrada USB-C y cuatro salidas USB-C. El controlador es el USB5744 de Microchip y la tarjeta se alimenta con una fuente externa de 12 V. Como referencia usé la tarjeta de evaluación EVB-USB5744 de Microchip.
 
-Herramientas: **OrCAD X Capture 25.1** (esquemático) y **OrCAD X PCB 25.1 / Allegro** (PCB).
-Referencia de diseño: tarjeta de evaluación EVB‑USB5744 de Microchip (hojas 1–3).
+Lo diseñé en OrCAD X 25.1: el esquemático en Capture y la PCB en Allegro.
 
-Autor: José Rodrigo Quiroa Dávila – Ingeniería en Electrónica y Telecomunicaciones, Universidad del Istmo.
+Hecho por José Rodrigo Quiroa Dávila, estudiante de Ingeniería en Electrónica y Telecomunicaciones de la Universidad del Istmo.
 
-## Estado al 25‑oct‑2026
+## Estado del proyecto
 
-| Etapa | Estado |
-|---|---|
-| Esquemático – hoja principal (USB5744, conectores J1–J4/J12, straps, desacople) | ✅ Completo, ordenado como el EVB |
-| Esquemático – hoja POWER (12 V → 5 V RPM5.0‑6.0, 1V2 TLV62569, 3V3 MCP1725, reset) | ✅ Completo y verificado |
-| Netlist Capture → Allegro | ✅ Importado sin errores |
-| Tarjeta: 4 capas (TOP / GND / PWR / BOTTOM), 110 × 60 mm | ✅ Contorno, keep‑in y stackup |
-| Colocación de componentes (incluida la etapa de potencia) | ✅ Completa |
-| Ruteo de pares diferenciales (20 pares, 45 redes, TOP, sin vías, impedancia ≈ 90 Ω) | ✅ Completo |
-| Planos: GND en L2 y 5 V en L3 | ✅ Creados |
-| Ruteo de potencia y control (740 pistas, 258 vías) | ✅ Aplicado en HUB.brd, **DRC 0, sin conexiones abiertas** |
-| Serigrafía y dibujos de ensamble | ✅ Referencias reubicadas (texto 1.0 mm / trazo 0.15 mm), nada sobre pads |
-| Gerbers L1–L4, máscara, pasta, serigrafía y ensamble (TOP y BOTTOM), contorno | ✅ Generados (`entregables/gerber`) |
-| Taladro NC (PTH, NPTH y ranuras) | ✅ Generado (`entregables/drill`) |
-| PDF del esquemático (hoja principal y POWER) | ✅ `entregables/HUB_esquematico.pdf` |
+El diseño está terminado. El esquemático tiene dos hojas: la principal, con el USB5744 y los conectores, y la de alimentación, donde se sacan los 5 V, 3.3 V y 1.2 V a partir de los 12 V de entrada.
 
-### Vista de los Gerbers
+La PCB es de 4 capas y mide 110 × 60 mm. Los pares diferenciales de USB van por la capa de arriba, sin vías y con una impedancia cercana a 90 Ω. La segunda capa es el plano de tierra y la tercera el de 5 V. Todo está ruteado y el DRC da cero errores.
 
-Cobre TOP (L1) y serigrafía TOP, generados a partir de los Gerbers finales:
+Ya generé los archivos para fabricarla: los Gerbers de las cuatro capas de cobre, la máscara, la pasta, la serigrafía y el ensamble de los dos lados, el contorno, los archivos de taladro y el PDF del esquemático. Todo está en la carpeta `entregables`.
 
-![L1 TOP](entregables/vistas/L1_TOP.png)
+Así se ven la capa de cobre de arriba y la serigrafía:
 
-![Serigrafía TOP](entregables/vistas/SILK_TOP.png)
+![Cobre de la capa de arriba](entregables/vistas/L1_TOP.png)
 
-## Estructura del repositorio
+![Serigrafía de arriba](entregables/vistas/SILK_TOP.png)
 
-```
-orcad/
-  Hub.opj            proyecto de Capture
-  HUB.DSN            esquemático (2 hojas)
-  HUB.brd            PCB de Allegro / OrCAD X PCB
-  lib/               símbolos (.OLB) y su exportación XML
-  footprints/        footprints (.dra/.psm/.ssm) y padstacks (.pad) propios
-docs/
-  BOM.csv            lista de materiales exportada de Capture
-  decisiones.md      decisiones de diseño y reglas
-  img/               imágenes de avance
-entregables/         paquete de fabricación: gerber/, drill/, vistas/ y LEEME_fabricacion.md
-herramientas/router/ scripts de Python usados para planificar el ruteo
-herramientas/allegro/ scripts SKILL aplicados en Allegro (ruteo, films, serigrafía)
-herramientas/serigrafia/ scripts de Python para colocar referencias y revisar los Gerbers
-```
+## Qué hay en cada carpeta
 
-Para abrir el proyecto: abrir `orcad/Hub.opj` en Capture y `orcad/HUB.brd` en OrCAD X PCB. Los footprints y
-padstacks de `orcad/footprints/` deben estar en la ruta de librerías de PCB (o en la misma carpeta que el .brd).
+- `orcad`: el proyecto de Capture, el esquemático, la PCB y los símbolos y footprints que hice o descargué.
+- `entregables`: los Gerbers, el taladro, el PDF del esquemático y una hoja que explica cada archivo.
+- `docs`: la lista de materiales y las decisiones de diseño.
+- `herramientas`: los scripts que usé para el ruteo y para acomodar la serigrafía.
 
-## Próximos pasos
+Para abrirlo, hay que abrir `orcad/Hub.opj` en Capture y `orcad/HUB.brd` en OrCAD X PCB. La carpeta `orcad/footprints` tiene que estar en la ruta de librerías de PCB, o si no, copiar esos archivos junto al `.brd`.
 
-1. Revisión final del paquete con un visor de Gerber antes de enviarlo a fabricar.
+## Cuidado con Specctra
 
-> Nota: `orcad/HUB.DSN` es el esquemático de Capture. No exportar a Specctra desde esta carpeta:
-> Allegro escribe `HUB.dsn` (mismo nombre) y sobrescribe el esquemático (pasó el 24‑oct; se restauró
-> desde el respaldo automático de Capture del 24‑oct 17:26, que coincide con el netlist final).
+No exporten a Specctra desde la carpeta del proyecto. Allegro guarda ese archivo como `HUB.dsn`, con el mismo nombre que el esquemático, y lo sobrescribe. A mí me pasó y tuve que recuperar el esquemático del respaldo automático de Capture.
+
+## Lo que falta
+
+Revisar los Gerbers en un visor antes de mandarlos a fabricar.
