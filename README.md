@@ -29,10 +29,6 @@ Así se ven la capa de cobre de arriba y la serigrafía:
 
 Para abrirlo, hay que abrir `orcad/Hub.opj` en Capture y `orcad/HUB.brd` en OrCAD X PCB. La carpeta `orcad/footprints` tiene que estar en la ruta de librerías de PCB, o si no, copiar esos archivos junto al `.brd`.
 
-## Cuidado con Specctra
-
-No exporten a Specctra desde la carpeta del proyecto. Allegro guarda ese archivo como `HUB.dsn`, con el mismo nombre que el esquemático, y lo sobrescribe. A mí me pasó y tuve que recuperar el esquemático del respaldo automático de Capture.
-
 ## Lo que falta
 
 Revisar los Gerbers en un visor antes de mandarlos a fabricar.
